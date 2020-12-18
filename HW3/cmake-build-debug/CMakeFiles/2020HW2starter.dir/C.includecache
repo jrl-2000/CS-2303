@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/2020HW2starter - Copy - Copy/src/LinkedList.c
+LinkedList.h
+F:/2020HW2starter - Copy - Copy/src/LinkedList.h
+stdlib.h
+-
+stdio.h
+-
+
+F:/2020HW2starter - Copy - Copy/src/LinkedList.h
+stdlib.h
+-
+stdio.h
+-
+stdbool.h
+-
+marker.h
+F:/2020HW2starter - Copy - Copy/src/marker.h
+
+F:/2020HW2starter - Copy - Copy/src/marker.h
+stdbool.h
+-
+LinkedList.h
+F:/2020HW2starter - Copy - Copy/src/LinkedList.h
+
