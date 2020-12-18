@@ -1,0 +1,29 @@
+//
+// Created by Jon on 12/6/2020.
+//
+
+
+#include <cstdio>
+#include "Search.h"
+
+void searchForTreasure(House house, Search *search) {
+    int numLayouts = numAccessibleLayouts(house);
+    Layout layoutList[house.nLayouts];
+    Layout *layouts = layoutList;
+    layouts = accessibleLayouts(house, layouts);
+    for (int count = 0; count < numLayouts; count++) {
+        searchInLayouts(layouts[count], search);
+    }
+    printf("We have searched: ");
+    for(int countRooms = 0; countRooms < search->nRoomSearched; countRooms++){
+        printRoomName(search->roomsSearched[countRooms]);
+        if(countRooms+1<search->nRoomSearched) printf(", ");
+    }
+    printf("\nAnd we have found %.1f pieces of treasure in this House\n\n", search->treasure);
+}
+
+float countTreasure(House house, Search search){
+    searchForTreasure(house, &search);
+    return search.treasure;
+}
+

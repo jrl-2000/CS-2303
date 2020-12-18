@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/2020HW4starter/src/House.h
+Layout.h
+E:/2020HW4starter/src/Layout.h
+
+E:/2020HW4starter/src/Layout.h
+Room.h
+E:/2020HW4starter/src/Room.h
+
+E:/2020HW4starter/src/Room.h
+stdio.h
+-
+stdbool.h
+-
+stdlib.h
+-
+
+E:/2020HW4starter/src/Search.h
+House.h
+E:/2020HW4starter/src/House.h
+
+E:/2020HW4starter/src/production.h
+stdio.h
+-
+stdbool.h
+-
+Search.h
+E:/2020HW4starter/src/Search.h
+
+E:/2020HW4starter/src/tests.cpp
+tests.h
+E:/2020HW4starter/src/tests.h
+
+E:/2020HW4starter/src/tests.h
+production.h
+E:/2020HW4starter/src/production.h
+
